@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>South Jersey Aikido Academy</title>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<link rel="icon" type="image/png" href="images/logo/logo_white.png" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+</head>
+
+<body>
+<video autoplay muted loop id="myVideo">
+  <source src="instructors.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<div class="content">
+	<div class="topnav" id="myTopnav">
+	  <a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+	  <a href="about.html"><i class="fa fa-fw fa-user"></i> About</a>
+	  <a href="instructors.html"><i class="fa fa-fw fa-group "></i> Instructors</a>
+	  <a href="info.html"><i class="fa fa-info-circle" aria-hidden="true"></i> Info</a>
+	  <a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<i class="fa fa-bars"></i>
+ 	  </a>
+	</div>
+<h5>Welcme to South Jersey Aikido Academy</h5>
+<p>(856) 933-2800</p>
+  <p>Teaching you great Self-defense is our #1 Goal.</p>
+  <p>© South Jersey Aikido Academy | 2018</p>
+  <div class="fixed-action-btn">
+  <a class="btn-floating btn-large grey" href="https://www.facebook.com/SouthJerseyAikidoAcademy/" target="_blank">
+    <i class="fa fa-fw fa-facebook-square"></i>
+  </a>
+  <ul>
+    <li><a class="btn-floating btn-large grey" href="https://www.youtube.com/channel/UC_lXjiYFljcnnNHnZIhJJXQ" target="_blank"><i class="fa fa-fw fa-youtube-square"></i></a></li>
+    <li><a class="btn-floating btn-large grey" href="https://www.instagram.com/southjerseyaikidoacademy/?hl=en" target="_blank"><i class="fa fa-fw fa-instagram"></i></a></li>
+    <li><a class="btn-floating btn-large grey" href="mailto:sjaacarney@aol.com"><i class="fa fa-fw fa-envelope"></i></a></li>
+  </ul>
+</div>
+</div>
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+<script src="js/main.js"></script>
+</body>
+</html>
